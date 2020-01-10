@@ -9,7 +9,7 @@
    [:h1 "shadow-cljs + firebase"]
    (if (empty? @state/user)
      [:p "First you need to log-in ..."]
-     [:p "... so taht you can change the state."])])
+     [:p "... so that you can change the state."])])
 
 (defn counter
   []
